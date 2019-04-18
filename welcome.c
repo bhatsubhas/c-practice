@@ -1,6 +1,7 @@
 #include<stdio.h>
 void test_function();
 int get_increment(int x);
+float get_percentage();
 
 int main()
 {
@@ -18,6 +19,7 @@ int main()
 		}
 	}
 	printf("\n");
+	printf("High School Percentage %f\n", get_percentage());
 }
 void test_function()
 {
@@ -27,4 +29,9 @@ void test_function()
 int get_increment(int x)
 {
 	return x + 1;
+}
+
+float get_percentage()
+{
+	return 76.87;
 }
